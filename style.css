@@ -1,0 +1,187 @@
+
+*{
+    margin: 20px;
+    padding: 0;
+}
+
+#logo{
+    margin: auto;
+    border-style: double ;
+    color: #eeaf2c ;
+    padding: 2vh 2vh 2vh 2vh ;
+    display: inline-block;
+}
+/*ESTILOS HOME*/
+body,
+button {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.Menu{
+    color: #eeaf2c;
+    background-color: #dfd2d2;
+    margin: 5vh 10vh 10vh 25vh;
+    border-top:solid 5px brown; 
+    border-right:solid 10px #eeaf2c;
+    border-bottom:solid 7px brown;
+    border-left:solid 12px #eeaf2c;
+    padding: 10px;
+}
+.l{
+    list-style-type: decimal;
+}
+#formulario{
+    color: darkolivegreen;
+    background-color: #eeaf2c;
+}
+p{
+    color: darkred;
+    padding: 10% 10% 10% 10% ;
+    line-height:  1.6;
+    letter-spacing:0.5px;
+}
+table{
+    color: darkred;
+}
+     tr, td {
+    background-color:#dfd2d2;
+    border: 1px solid;
+   }
+   h1{
+    font-style:italic;
+}
+h2{
+    font-weight: 600;
+}
+
+/*contactenos*/
+.EstiloFormulario{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+/*salas
+.tablas{
+    background-image:  url("https://mdn.mozillademos.org/files/11991/startransparent.gif"),
+    url("https://mdn.mozillademos.org/files/7693/catfront.png");
+    background-repeat: repeat-x,   repeat-y;
+    background-position:  right center;
+    font-family: 'Questrial', sans-serif;
+}*/
+
+/*comedores*/
+section{
+    padding: 40px 0;
+}
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ProductosSalas .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ProductosSalas h2{
+    width: 100%;/* para que nada se ponga a su lado porque al poner el 100 obliga a lo demas a moverse*/
+
+}
+.ProductosSalas article{
+    background-color: rgba(133, 105, 105, 0.068);
+    /*width: 20%; /*si no le pongo esto como tienen descripcion difernte toman el valor de esa cantidad este atributo distribuye */
+    margin: 0 20px;
+
+    display: flex;
+    flex-direction: column; /*esto pone un elemnto abajo del otro esta propuedad en si cambia la direccion de los elemtnos entonces su yo uso un justify o alinn me va a dar las pripuedades hacia abajo*/
+
+}
+ video{
+     display: flex;
+     width: 100%;
+    align-items: center;
+}   
+
+/*Grids*/
+.BodySala {
+    display: grid;                      
+    grid-template-columns: 300px 1fr;                        
+   
+    grid-template-areas: 
+        "HeaderSala ProductosSala"
+        "HeaderSala VideoSala";
+ }
+ 
+ .HeaderSalas{
+     background-color: rgba(66, 62, 62, 0.13);
+     grid-area: HeaderSala;
+ }
+.ProductosSalas{
+    background-color: rgba(255, 235, 205, 0.61);
+    grid-area: ProductosSala;
+
+}
+.VideoSalas{
+    background-color: rgba(32, 178, 171, 0.301);
+    grid-area: VideoSala;
+}
+
+.BodySala nav{
+/*height: 100%;*/
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.BodySala nav li{
+height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 1024px) {
+    
+    .Menu{
+          margin: 0%;
+          background: rgba(197, 209, 90, 0.404);
+        padding: 2px;
+        border-top:solid 20px rgb(0, 0, 0); 
+        border-right:solid 30px #0e0d0d2d;
+        border-bottom:solid 20px rgb(0, 0, 0);
+        border-left:solid 30px #0e0d0d2d;
+        padding: 10px;
+        text-align: left;
+    }
+    .FPresentacion{
+        margin: 0%;
+        text-align: left;
+    }
+      
+}
+@media only screen and (max-width: 600px) {
+    
+    .Menu{
+          margin: 0%;
+          background: rgba(89, 94, 84, 0.288);
+        padding: 2px;
+        border-top:solid 5px rgb(0, 0, 0); 
+        border-right:solid 10px #0e0d0d2d;
+        border-bottom:solid 5px rgb(0, 0, 0);
+        border-left:solid 10px #0e0d0d2d;
+        padding: 0px;
+        text-align: left;
+
+      }
+    .FPresentacion{
+        margin: 0%;
+        text-align: center;
+    }
+      
+}
+

@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0;
+    list-style:none
+    
+    
+}
+body,
+button, a {
+    
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulos{
+    width: 100;
+    text-align: center;
+    padding: 30px;
+
+}
+ 
+
+/*Menu*/
+.Menucontenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(17, 17, 16, 0);
+    padding: 0px 0px;
+    width: 100%;
+    border-bottom:solid #E3B70B 3px;
+    
+}   
+
+.Menucontenedor li{
+    
+    text-align: center;
+    width: 20%;
+    
+}
+.Menucontenedor li a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+/*home*/
+.FPresentacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10% ; 
+    margin: 0px;
+
+    
+}
+.FPresentacion h2{
+    font-size: 40px;
+}
+.FPresentacion div :hover{
+    transform: scale(1.08);
+}
+/*Comedores modelo general*/
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  
+}
+.contenedor__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 25px;
+    margin: 30px;
+    
+}
+
+article img{
+    filter: none;
+}
+article img:hover {
+
+	filter: grayscale(1.2);
+}
+
+/*Modal*/
+button{
+    background-color: rgb(27, 212, 27);
+    outline: none;
+    text-decoration: navy;
+    border-radius: 10%;
+    padding: 15px;
+}
+button a{
+    font-weight: bold;
+    color: #fff;
+}
+/*Camas*/
+.tituloSeccionCama{
+
+    display: flex;
+    flex-grow: unset;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/imagenes/Cama/principalCama.png");
+    background-position: center;
+    height: 30vh;
+    
+}
+.tituloSeccionSala{
+
+    display: flex;
+    flex-grow: unset;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/imagenes/Sala/principalSala.jpg");
+    background-position: center;
+    height: 30vh;
+    
+}
+.tituloSeccionComedor{
+
+    display: flex;
+    flex-grow: unset;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/imagenes/Comedor/comedorPrincilal.jpg");
+    background-position: center;
+    height: 30vh;
+    
+}
+
+/*Modal Camas*/
+.modalSelectColor{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.modal__colores{
+    height: 70px;
+    width: 70px;
+    border-style: solid ;
+    }
+.modalcama1__colores--color1{
+    background-color: rgb(189, 70, 34);
+}
+
+.modalcama1__colores--color2{
+    background-color: rgb(24, 128, 128);
+}
+
+.modalcama1__colores--color3{
+    background-color: rgb(38, 36, 168);
+}
+.modalcama1__colores--color4{
+    background-color: rgb(20, 177, 177);
+}
+
+
+
+
+/* retoque formulario*/
+.Contactform{
+    margin: 10vh 20vh;
+    padding: 10vh;
+    background-color: #e6c12e17  ;
+    
+    /*para mobile solo saca margin y padding*/
+}
+
+
+/*footer*/
+footer{
+    text-decoration: none;
+    border-top:solid #E3B70B 3px;
+    padding: 20px;
+}
+footer h3{
+    display: flex;
+    justify-content: center ;
+}
+footer ul{
+    
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+color: #000000;
+font-weight: bold;
+}
+footer img{
+    width: 5vh;
+}
