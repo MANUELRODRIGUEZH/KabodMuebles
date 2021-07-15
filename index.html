@@ -16,28 +16,24 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <nav class="Menu">
-        
-        <div>
-            <ul class="Menucontenedor">
-               
-                <li>    
-                    <a href="salas.html"> Salas</a>
-                </li> 
-                <li>
-                    <a href="camas.html"> Camas</a>
-                </li> 
-                <li>
-                    <a href="index.html"><img src="LogoKabod.png" >
-               </li> 
-                <li>
-                    <a href="comedor.html"> Comedor</a>
-                </li> 
-                <li>
-                    <a href="contactenos.html"> Contactenos</a>
-                </li> 
-                 </ul>
+  <header>
+    <nav class="navbar">
+        <div class="brand-title"><a href="index.html"><img src="LogoKabod.png"></div>
+        <a href="#navbar-links" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div id="navbar-links">
+          <ul> 
+            <li><a href="salas.html"> Salas</a></li> 
+            <li><a href="camas.html"> Camas</a></li> 
+            <li><a href="comedor.html">Comedor</a></li> 
+            <li><a href="contactenos.html"> Contactenos</a></li> 
+          </ul>
         </div>
+      </nav>
+</header>
     </nav>
     <section id=grid class="FPresentacion">
            <div class="wow animate__animated animate__backInLeft" >
@@ -120,21 +116,21 @@
   <div class="rrss">
      <h3>Siguenos</h3>
      <ul>
-         <li>
-          <img src="/imagenes/footer/facebook-brands.svg">
-              <a href="https://www.facebook.com/kabodmuebles">Facebook</a>
+         <li><a href="https://www.facebook.com/kabodmuebles" target="_blank">
+          <img src="imagenes/footer/facebook-brands.svg"/>
+          <a href="https://www.facebook.com/kabodmuebles"target="_blank" class="footermobile">   Facebook</a>
           </li>
-         <li>
-              <img src="/imagenes/footer/instagram-brands.svg">
-             <a href="https://www.instagram.com/kabodmuebles/">Instagram</a>
+         <li><a href="https://www.instagram.com/kabodmuebles/" target="_blank">
+              <img src="imagenes/footer/instagram-brands.svg"/>
+              <a href="https://www.instagram.com/kabodmuebles/"target="_blank" class="footermobile"> Instagram</a>
          </li>
-         <li>
-             <img src="/imagenes/footer/whatsapp-brands.svg">    
-             <a href="https://api.whatsapp.com/send?phone=573015007303">WhatsApp</a>
+         <li><a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank">
+             <img src="imagenes/footer/whatsapp-brands.svg"/>    
+             <a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank" class="footermobile">WhatsApp</a>
          </li>
-         <li>
-               <img src="/imagenes/footer/envelope-square-solid.svg">
-             <a href="mailto:Kabodmuebles@gmail.com">Correo</a>
+         <li> <a href="mailto:Kabodmuebles@gmail.com" target="_blank">
+               <img src="imagenes/footer/envelope-square-solid.svg"/>
+               <a href="mailto:Kabodmuebles@gmail.com" target="_blank" class="footermobile"> Correo</a>
           </li>
      </ul>
  </div>

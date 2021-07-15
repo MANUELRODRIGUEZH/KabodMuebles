@@ -13,29 +13,22 @@
 
 <body> 
     <header>
-        <nav class="Menu">
-        
-            <div>
-                <ul class="Menucontenedor">
-                   
-                    <li>    
-                        <a href="salas.html"> Salas</a>
-                    </li> 
-                    <li>
-                        <a href="camas.html"> Camas</a>
-                    </li> 
-                    <li>
-                        <a href="index.html"><img src="LogoKabod.png" >
-                   </li> 
-                    <li>
-                        <a href="comedor.html"> Comedor</a>
-                    </li> 
-                    <li>
-                        <a href="contactenos.html"> Contactenos</a>
-                    </li> 
-                     </ul>
+        <nav class="navbar">
+            <div class="brand-title"><a href="index.html"><img src="LogoKabod.png"></div>
+            <a href="#navbar-links" class="toggle-button">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </a>
+            <div id="navbar-links">
+              <ul> 
+                <li><a href="salas.html"> Salas</a></li> 
+                <li><a href="camas.html"> Camas</a></li> 
+                <li><a href="comedor.html">Comedor</a></li> 
+                <li><a href="contactenos.html"> Contactenos</a></li> 
+              </ul>
             </div>
-        </nav>
+          </nav>
     </header>
     <section class="Contactform">
         <div class="container">
@@ -87,7 +80,9 @@
         <form>
 
     </section>
-
+    <div class="maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15901.820998011863!2d-74.0532411!3d4.8631212!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x13367e43872d37be!2sKABOD%20Muebles!5e0!3m2!1ses-419!2sar!4v1626361853743!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
     <!--inicio de js de bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
@@ -97,24 +92,24 @@
     <div class="rrss">
        <h3>Siguenos</h3>
        <ul>
-           <li>
-            <img src="/imagenes/footer/facebook-brands.svg">
-                <a href="https://www.facebook.com/kabodmuebles">Facebook</a>
+           <li><a href="https://www.facebook.com/kabodmuebles" target="_blank">
+            <img src="imagenes/footer/facebook-brands.svg"/>
+            <a href="https://www.facebook.com/kabodmuebles"target="_blank" class="footermobile">   Facebook</a>
             </li>
-           <li>
-                <img src="/imagenes/footer/instagram-brands.svg">
-               <a href="https://www.instagram.com/kabodmuebles/">Instagram</a>
+           <li><a href="https://www.instagram.com/kabodmuebles/" target="_blank">
+                <img src="imagenes/footer/instagram-brands.svg"/>
+                <a href="https://www.instagram.com/kabodmuebles/"target="_blank" class="footermobile"> Instagram</a>
            </li>
-           <li>
-               <img src="/imagenes/footer/whatsapp-brands.svg">    
-               <a href="https://api.whatsapp.com/send?phone=573015007303">WhatsApp</a>
+           <li><a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank">
+               <img src="imagenes/footer/whatsapp-brands.svg"/>    
+               <a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank" class="footermobile">WhatsApp</a>
            </li>
-           <li>
-                 <img src="/imagenes/footer/envelope-square-solid.svg">
-               <a href="mailto:Kabodmuebles@gmail.com">Correo</a>
+           <li> <a href="mailto:Kabodmuebles@gmail.com" target="_blank">
+                 <img src="imagenes/footer/envelope-square-solid.svg"/>
+                 <a href="mailto:Kabodmuebles@gmail.com" target="_blank" class="footermobile"> Correo</a>
             </li>
        </ul>
    </div>
    
-</footer>
+  </footer>
 </html>
