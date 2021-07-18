@@ -145,9 +145,12 @@ button{
     outline: none;
     text-decoration: navy;
     border-radius: 10%;
-    border-color: #fff;
-    padding: 15px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.459);
+    
+}
+.botonmodal{
+  border-color: #fff;
+  padding: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.459);
 }
 button a{
     font-weight: bold;
