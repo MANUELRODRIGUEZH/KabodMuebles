@@ -32,16 +32,16 @@ button, a {
 /*
 body{
   background: url("imagenes/bgheader.jpg");
-} 
-*/
+} */
+
 /*Menu*/
 .navbar {
     display: flex;
     position: relative;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    color: rgb(14, 13, 13);
+    background-color: rgb(100, 54, 54);
+    color: #fff;;
     border-bottom:solid #E3B70B 20px;
     background: url("imagenes/bgheader.jpg");
   }
@@ -68,7 +68,7 @@ body{
     text-decoration: none;
     font-weight: none;
     font-size: 1.5rem;
-    color: #000000;
+    color: #fff;
     padding: 1rem;
   }
   #navbar-links li:hover {
@@ -141,11 +141,13 @@ article img:hover {
 
 /*Modal*/
 button{
-    background-color: rgb(27, 212, 27);
+    background-color:#00B800;
     outline: none;
     text-decoration: navy;
     border-radius: 10%;
+    border-color: #fff;
     padding: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.459);
 }
 button a{
     font-weight: bold;
@@ -193,12 +195,13 @@ button a{
     margin: 20px;
 }
 .modal__colores{
-    height: 70px;
-    width: 70px;
+    height: 90px;
+    width: 90px;
     border-style: solid ;
+    margin: 5px 5px 5px 5px ;
     }
 .modalcama1__colores--color1{
-    background-color: rgb(189, 70, 34);
+    background-color: rgb(44, 32, 29);
 }
 
 .modalcama1__colores--color2{
@@ -239,6 +242,7 @@ footer{
 footer h3{
     display: flex;
     justify-content: center ;
+    color: #fff;
 }
 footer ul{
     
@@ -247,7 +251,7 @@ footer ul{
     justify-content: space-between;
 }
 footer a{
-color: #000000;
+color:#fff;
 font-weight: bold;
 }
 footer img{
@@ -288,4 +292,7 @@ footer img{
     .footermobile{
        display: none; 
         }
+        footer img{
+          width: 10vh;
+      }
   }
