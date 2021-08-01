@@ -33,17 +33,8 @@
           </ul>
         </div>
       </nav>
-</header>
-    </nav>
-    <section id=grid class="FPresentacion">
-           <div class="wow animate__animated animate__backInLeft" >
-            <h2> Fabricamos salas a tu medida, para que vivas momentos a tu antojo.</h2>
-         </div>
-        <div class="wow animate__animated animate__backInRight">
-            <h3>"Cuando el color logra riqueza, la forma también alcanza su plenitud" -Paul Cézanne</h3>
-        </div>
-    </section>
-
+  </header>
+    
 <section class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -54,16 +45,16 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagenes/slider/recurso1.png" class="d-block w-100" alt="...">
+            <img src="imagenes/slider/recurso1.png" class="d-block w-100" alt="Sala Florencia" data-bs-toggle="modal" data-bs-target="#modalSala1">
           </div>
           <div class="carousel-item">
-            <img src="imagenes/slider/recurso2.png" class="d-block w-100" alt="...">
+            <img src="imagenes/slider/recurso2.png" class="d-block w-100" alt="Sala Napoly" data-bs-toggle="modal" data-bs-target="#modalSala4">
           </div>
           <div class="carousel-item">
-            <img src="imagenes/slider/recurso3.png" class="d-block w-100" alt="...">
+            <img src="imagenes/slider/recurso3.png" class="d-block w-100" alt="Cabecero de Puntos" data-bs-toggle="modal" data-bs-target="#modalCama2">
           </div>
           <div class="carousel-item">
-            <img src="imagenes/slider/recurso4.png" class="d-block w-100" alt="...">
+            <img src="imagenes/slider/recurso4.png" class="d-block w-100" alt="Comedor Capitone"data-bs-toggle="modal" data-bs-target="#modalComedor1">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -76,32 +67,136 @@
         </button>
       </div>
 </section>
-<section class="container">
-    <div class="row">
-        <article class="col-5">
-        <h2>Camas</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur alias sint est in repellat eaque, veritatis ex excepturi facilis quisquam? Non iste dignissimos vitae cumque iusto modi reiciendis ex tenetur.</p>
-    </article>
-    
-    <article class="col-7">
-        <h2>Salas</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur alias sint est in repellat eaque, veritatis ex excepturi facilis quisquam? Non iste dignissimos vitae cumque iusto modi reiciendis ex tenetur.</p>
-        <div class="row">
-            <div class="col-6">
-            <h2>Sofa</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur alias sint est in repellat eaque, veritatis ex excepturi facilis quisquam? Non iste dignissimos vitae cumque iusto modi reiciendis ex tenetur.</p>
-            </div>        
-    
-            <div class="col-6">
-                <h2>Sillones</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur alias sint est in repellat eaque, veritatis ex excepturi facilis quisquam? Non iste dignissimos vitae cumque iusto modi reiciendis ex tenetur.</p>
-                </div>        
-    </article>
-    </div>
-    
-</section>
-     
 
+<section id=grid class="FPresentacion">
+  <div class="wow animate__animated animate__backInLeft" >
+   <h2> Fabricamos salas a tu medida, para que vivas momentos a tu antojo.</h2>
+</div>
+<div class="wow animate__animated animate__backInRight">
+   <h3>"Cuando el color logra riqueza, la forma también alcanza su plenitud" -Paul Cézanne</h3>
+</div>
+</section>
+  
+
+
+<div class="modal fade" id="modalSala1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Sala Florencia</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="imagenes/sala/sala1g.png" class="img-fluid">
+          <a>Colores disponibles</a>
+          <section class="modalSelectColor">
+              
+              <section class=" modal__colores modalSala1__colores--color1">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalSala1__colores--color2">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalSala1__colores--color3">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalSala1__colores--color4">
+                  <div>  </div>
+              </section>
+          </section>
+          
+          <h3>Sala Florencia</h3>
+          <p>Sala florencia compuesta por sofá chester de 3 puestos, poltrona capitonada, puff baul capitonado, mesa de centro y 3 cojines decorativos.</p>
+          <p>Precio: $ 2.600.000.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="botonmodal"> 
+            <a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank"> ¡Lo quiero!</a>
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalSala4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Sala Napoly Junior</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="imagenes/sala/sala4g.png" class="img-fluid">
+          <a>Colores disponibles</a>
+          <section class="modalSelectColor">
+              
+              <section class=" modal__colores modalSala4__colores--color1">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalSala4__colores--color2">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalSala4__colores--color3">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalSala4__colores--color4">
+                  <div>  </div>
+              </section>
+          </section>
+          
+          <h3>Sala Napoly Junior</h3>
+
+          <p>Sala modular de 2.25 mts x 2.25 mts compuesta por 3 módulos independientes, puff baul, mesa de centro y 4 cojines decorativos.   Colores: Gris, cafe, </p>
+          <p>Precio: $2.100.000</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="botonmodal"> 
+            <a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank"> ¡Lo quiero!</a>
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modalCama2 -->
+<div class="modal fade" id="modalCama2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Cabecero Puntos</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <img src="imagenes/cama/cama2g.png" class="img-fluid">
+          <a>Colores disponibles</a>
+          <section class="modalSelectColor">
+              
+              <section class=" modal__colores modalcama1__colores--color1">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalcama1__colores--color2">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalcama1__colores--color3">
+                  <div>  </div>
+              </section>
+              <section class="modal__colores modalcama1__colores--color4">
+                  <div>  </div>
+              </section>
+          </section>            
+          <h3>Cabecero Puntos</h3>
+          <p>Base cama doble con colchón semi ortopédico + cabecero con botones.</p>
+          <p>Precio: $1.050.000</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="botonmodal"> 
+            <a href="https://api.whatsapp.com/send?phone=573015007303" target="_blank"> ¡Lo quiero!</a>
+          </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/modalcama2-->
 <script> src="wow.min.js"</script> 
 <link
     rel="stylesheet"
