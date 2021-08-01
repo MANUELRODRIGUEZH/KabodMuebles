@@ -1,0 +1,495 @@
+/*home*/
+.FPresentacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 10%;
+  margin: 0px 20px;
+}
+
+.FPresentacion h2 {
+  font-size: 40px;
+}
+
+.FPresentacion div :hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+}
+
+/*Comedores modelo general*/
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedor__article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  padding: 25px;
+  margin: 30px;
+}
+
+article img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+article img:hover {
+  -webkit-filter: grayscale(1.2);
+          filter: grayscale(1.2);
+}
+
+/*Modal*/
+button {
+  background-color: #00B800;
+  outline: none;
+  -webkit-text-decoration: navy;
+          text-decoration: navy;
+  border-radius: 10%;
+}
+
+.botonmodal {
+  border-color: #fff;
+  padding: 15px;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.459);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.459);
+}
+
+button a {
+  font-weight: bold;
+  color: #fff;
+}
+
+/*Camas*/
+.tituloSeccionCama {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+          flex-grow: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/imagenes/cama/principalCama.png");
+  background-position: center;
+  height: 30vh;
+}
+
+.tituloSeccionComedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+          flex-grow: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/imagenes/comedor/comedorPrincilal.jpg");
+  background-position: center;
+  height: 30vh;
+}
+
+/*Modal Camas*/
+.modalSelectColor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px;
+}
+
+.modal__colores {
+  height: 90px;
+  width: 90px;
+  border-style: solid;
+  margin: 5px 5px 5px 5px;
+}
+
+.modalcama1__colores--color1, .modalcama3__colores--color1 {
+  background-image: url(/imagenes/cama/ANDROMEDAAZUL.jpg);
+}
+
+.modalcama1__colores--color2, .modalcama3__colores--color2 {
+  background-image: url(/imagenes/cama/ANDROMEDANEGRO.jpg);
+}
+
+.modalcama1__colores--color3, .modalcama3__colores--color3 {
+  background-image: url(/imagenes/cama/ANDROMEDAGRIS.jpg);
+}
+
+.modalcama1__colores--color4, .modalcama3__colores--color4 {
+  background-image: url(/imagenes/cama/ANDROMEDACAFE.jpg);
+}
+
+/*Modal Comerdor*/
+.modalComedor1__colores--color1 {
+  background-image: url(/imagenes/comedor/FLORMORADO.jpg);
+}
+
+.modalComedor1__colores--color2 {
+  background-image: url(/imagenes/comedor/MIEL.jpg);
+}
+
+.modalComedor1__colores--color3 {
+  background-image: url(/imagenes/comedor/WENGUE.jpg);
+}
+
+.modalComedor1__colores--color4 {
+  background-image: url(/imagenes/comedor/CARAMELO.jpg);
+}
+
+.tituloSeccionSala {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: unset;
+      -ms-flex-positive: unset;
+          flex-grow: unset;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url("/imagenes/sala/principalSala.jpg");
+  background-position: center;
+  height: 30vh;
+}
+
+/*Modal Salas*/
+.modalSala1__colores--color1 {
+  background-image: url(/imagenes/sala/telasflorencia/saraGris.jpg);
+}
+
+.modalSala1__colores--color2 {
+  background-image: url(/imagenes/sala/telasflorencia/saraMarfil.jpg);
+}
+
+.modalSala1__colores--color3 {
+  background-image: url(/imagenes/sala/telasflorencia/saraPlata.jpg);
+}
+
+.modalSala1__colores--color4 {
+  background-image: url(/imagenes/sala/telasflorencia/saraVerde.jpg);
+}
+
+/*Lisboa*/
+.modalSala2__colores--color1 {
+  background-image: url(/imagenes/sala/telasLisboa/gabrielaAzul.jpg);
+}
+
+.modalSala2__colores--color2 {
+  background-image: url(/imagenes/sala/telasLisboa/gabrielaGris.jpg);
+}
+
+.modalSala2__colores--color3 {
+  background-image: url(/imagenes/sala/telasLisboa/gabrielaMostaza.jpg);
+}
+
+.modalSala2__colores--color4 {
+  background-image: url(/imagenes/sala/telasLisboa/gabrielaVerde.jpg);
+}
+
+/*multifuncional*/
+.modalSala3__colores--color1 {
+  background-image: url(/imagenes/sala/telasMultifincional/KABULPETROLEO.jpg);
+}
+
+.modalSala3__colores--color2 {
+  background-image: url(/imagenes/sala/telasMultifincional/KABULARENA.jpg);
+}
+
+.modalSala3__colores--color3 {
+  background-image: url(/imagenes/sala/telasMultifincional/KABULCAPUCHINO.jpg);
+}
+
+.modalSala3__colores--color4 {
+  background-image: url(/imagenes/sala/telasMultifincional/KABULNAVY.jpg);
+}
+
+/*NapolyJunior*/
+.modalSala4__colores--color1 {
+  background-image: url(/imagenes/sala/telasNapolyJunior/BAVAROBEIGUE.jpg);
+}
+
+.modalSala4__colores--color2 {
+  background-image: url(/imagenes/sala/telasNapolyJunior/BAVAROPLATA.jpg);
+}
+
+.modalSala4__colores--color3 {
+  background-image: url(/imagenes/sala/telasNapolyJunior/BAVAROTAUPE.jpg);
+}
+
+.modalSala4__colores--color4 {
+  background-image: url(/imagenes/sala/telasNapolyJunior/BAVAROTURQUEZA.jpg);
+}
+
+/*Orion*/
+.modalSala5__colores--color1 {
+  background-image: url(/imagenes/sala/telasOrion/BAVAROBEIGUE.jpg);
+}
+
+.modalSala5__colores--color2 {
+  background-image: url(/imagenes/sala/telasOrion/BAVAROPLATA.jpg);
+}
+
+.modalSala5__colores--color3 {
+  background-image: url(/imagenes/sala/telasOrion/BAVAROTAUPE.jpg);
+}
+
+.modalSala5__colores--color4 {
+  background-image: url(/imagenes/sala/telasOrion/BAVAROTURQUEZA.jpg);
+}
+
+/*SALA U*/
+.modalSala6__colores--color1 {
+  background-image: url(/imagenes/sala/telasu/KATARAZUL.jpg);
+}
+
+.modalSala6__colores--color2 {
+  background-image: url(/imagenes/sala/telasu/KATARGRIS.jpg);
+}
+
+.modalSala6__colores--color3 {
+  background-image: url(/imagenes/sala/telasu/KATARROSA.jpg);
+}
+
+.modalSala6__colores--color4 {
+  background-image: url(/imagenes/sala/telasu/KATARMARFIL.jpg);
+}
+
+/*RETOQUE FORMULARIO*/
+.Contactform {
+  margin: 10vh 20vh;
+  padding: 10vh;
+  background-color: #e6c12e17;
+  /*para mobile solo saca margin y padding*/
+}
+
+.maps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1rem;
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+/*Menu*/
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #643636;
+  color: #fff;
+  border-bottom: solid #E3B70B 3px;
+  background: url("/imagenes/bgheader.jpg");
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+#navbar-links {
+  height: 100%;
+}
+
+#navbar-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar-links li {
+  list-style: none;
+  border-radius: 25%;
+  -webkit-transition: background-color 2s ease;
+  transition: background-color 2s ease;
+}
+
+#navbar-links li a {
+  display: block;
+  text-decoration: none;
+  font-weight: none;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+#navbar-links li:hover {
+  background-color: rgba(219, 185, 72, 0.658);
+}
+
+.toggle-button {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+#navbar-links:target {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*footer*/
+footer {
+  text-decoration: none;
+  border-top: solid #E3B70B 3px;
+  padding: 10px 0 0 0;
+  background: url("/imagenes/bgheader.jpg");
+}
+
+footer h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+}
+
+footer ul {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer a {
+  color: #fff;
+  font-weight: bold;
+}
+
+footer img {
+  width: 5vh;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .toggle-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-top: 200px;
+  }
+
+  #navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  #navbar-links ul {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  #navbar-links ul li {
+    text-align: center;
+  }
+
+  #navbar-links ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  .contenedor__article {
+    width: 100%;
+  }
+
+  .Contactform {
+    margin: 1rem;
+    padding: 0;
+    background-color: #e6c12e17;
+  }
+
+  .footermobile {
+    display: none;
+  }
+
+  footer img {
+    width: 10vh;
+  }
+}

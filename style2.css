@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0;
-    list-style:none
+    list-style:none;
     
     
 }
@@ -87,7 +87,7 @@ body{
   .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: #000000;
+    background-color: #ffffff;
     border-radius: 10px;
   }
   #navbar-links:target {

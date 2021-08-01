@@ -1,0 +1,45 @@
+/*Comedores modelo general*/
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  
+}
+.contenedor__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 25px;
+    margin: 30px;
+    
+}
+
+article img{
+    filter: none;
+}
+article img:hover {
+
+	filter: grayscale(1.2);
+}
+
+/*Modal*/
+button{
+    background-color:#00B800;
+    outline: none;
+    text-decoration: navy;
+    border-radius: 10%;
+    
+}
+.botonmodal{
+  border-color: #fff;
+  padding: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.459);
+}
+button a{
+    font-weight: bold;
+    color: #fff;
+}

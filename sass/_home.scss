@@ -1,0 +1,15 @@
+/*home*/
+
+.FPresentacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10% ; 
+    margin: 0px 20px;  
+}
+.FPresentacion h2{
+    font-size: 40px;
+}
+.FPresentacion div :hover{
+    transform: scale(1.04);
+}
