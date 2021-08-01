@@ -1,4 +1,5 @@
 @import "_home.scss";
+@import "_variables.scss";
 @import "_generalprod.scss";
 @import "_camas.scss";
 @import "_comedor.scss";
@@ -18,7 +19,7 @@
     align-items: center;
     background-color: rgb(100, 54, 54);
     color: #fff;;
-    border-bottom:solid #E3B70B 3px;
+    border-bottom:solid $colorPrincipal 3px;
     background: url("/imagenes/bgheader.jpg");
   }
   .brand-title {
@@ -73,7 +74,7 @@
 /*footer*/
 footer{
     text-decoration: none;
-    border-top:solid #E3B70B 3px;
+    border-top:solid $colorPrincipal 3px;
     padding: 10px 0 0 0;
     background: url("/imagenes/bgheader.jpg");
 }

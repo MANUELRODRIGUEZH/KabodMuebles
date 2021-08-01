@@ -59,8 +59,8 @@ article img {
 }
 
 article img:hover {
-  -webkit-filter: grayscale(1.2);
-          filter: grayscale(1.2);
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
 }
 
 /*Modal*/
